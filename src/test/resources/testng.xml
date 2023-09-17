@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.example.listeners.ExecutionListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:\Users\yunikov\Desktop\Обучение\курсы\[OTUS] Java QA Engineer (2019)\homework\lesson2\src\test\resources\testng.xml">
+        <classes>
+            <class name="org.example.tests.SampleTest">
+            </class>
+        </classes>
+    </test>
+</suite>
+
